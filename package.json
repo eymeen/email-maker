@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/eymeen/email-generator/issues"
   },
-  "homepage": "https://github.com/eymeen/email-generator#readme"
+  "homepage": "https://github.com/eymeen/email-generator#readme",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  }
 }
