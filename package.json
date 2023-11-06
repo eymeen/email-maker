@@ -1,0 +1,21 @@
+{
+  "name": "email-generator",
+  "version": "1.0.0",
+  "description": "Generate emails from 1 email",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eymeen/email-generator.git"
+  },
+  "keywords": [],
+  "author": "Eymen Eid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eymeen/email-generator/issues"
+  },
+  "homepage": "https://github.com/eymeen/email-generator#readme"
+}

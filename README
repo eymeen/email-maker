@@ -1,0 +1,8 @@
+email-generator
+
+Generate multiple work emails from only one email. It works because most mailers ignores dots written in the emails. Playing on this glitch, system users can randomly insert dots inside the email, keeping it correct, to create multiple email variations from a single one. I created this repo to prevent this from happening on your system. Use the class, github page, or the simple function to get all of the possible variations and add the unstructions on your system.
+
+tested on:
+- gmail.com
+
+AGAIN do not use this repo to randomly create accounts on systems.
