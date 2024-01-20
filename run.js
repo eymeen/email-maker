@@ -1,4 +1,5 @@
-import GenerateEmail from './generatorClass'
+import EmailMaker from './EmailMaker'
 
-const emails = new GenerateEmail("testemails");
+const username = "testmail"
+const emails = new EmailMaker(username);
 emails.download();

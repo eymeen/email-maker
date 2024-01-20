@@ -1,5 +1,5 @@
 {
-  "name": "email-generator",
+  "name": "email-maker",
   "version": "1.0.0",
   "description": "Generate emails from 1 email",
   "main": "index.js",
@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eymeen/email-generator.git"
+    "url": "git+https://github.com/eymeen/email-maker.git"
   },
   "keywords": [],
   "author": "Eymen Eid",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/eymeen/email-generator/issues"
+    "url": "https://github.com/eymeen/email-maker/issues"
   },
-  "homepage": "https://github.com/eymeen/email-generator#readme",
+  "homepage": "https://github.com/eymeen/email-maker#readme",
   "dependencies": {
     "fs": "^0.0.1-security"
   }

@@ -1,6 +1,8 @@
-email-generator
+email-maker
 
 Generate multiple work emails from only one email. It works because most mailers ignores dots written in the emails. Playing on this glitch, system users can randomly insert dots inside the email, keeping it correct, to create multiple email variations from a single one. I created this repo to prevent this from happening on your system. Use the class, github page, or the simple function to get all of the possible variations and add the unstructions on your system.
+
+for 1 time uses, visit this page : https://eymeen.github.io/email-generator/
 
 tested on:
 - gmail.com
@@ -9,11 +11,11 @@ AGAIN do not use this repo to randomly create accounts on systems.
 
 docs:
 ===============================================================================
-Email Generator Class 👨‍💻
+Email Maker Class 👨‍💻
 ===============================================================================
 
 Constructor
-- `constructor(input = null)`: Creates an instance of the `EmailGenerator` class.
+- `constructor(input = null)`: Creates an instance of the `EmailMaker` class.
   - Parameters:
     - `input` (optional): The email address or username to generate variations from.
 
@@ -55,15 +57,15 @@ Arithmetic Methods
 Usage Example
 
 ```javascript
-import EmailGenerator from "../GenerateEmail";
+import EmailMaker from "../GenerateEmail";
 
 
-const emails = new EmailGenerator("example@email.com");
+const emails = new EmailMaker("example@email.com");
 
 emails.logVariations();
 emails.download();
 ```
 
-This example creates an instance of the `EmailGenerator` class, generates variations, logs them, displays them in a table, and downloads them using the default backend download option.
+This example creates an instance of the `EmailMaker` class, generates variations, logs them, displays them in a table, and downloads them using the default backend download option.
 
 Enjoy it! 🚀
