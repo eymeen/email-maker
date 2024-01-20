@@ -1,6 +1,6 @@
 {
   "name": "email-maker",
-  "version": "1.0.0",
+  "version": "1.0.4",
   "description": "Generate emails from 1 email",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,21 @@
     "type": "git",
     "url": "git+https://github.com/eymeen/email-maker.git"
   },
-  "keywords": [],
+  "keywords": [
+    "emails",
+    "spam",
+    "gmail-hacks",
+    "text-algorithms"
+  ],
+  "files": [
+    "EmailMaker.js",
+    "EmailMaker.min.js",
+    "package.js",
+    "package-lock.js",
+    "README",
+    ".gitignore",
+    ".npmignore"
+  ],
   "author": "Eymen Eid",
   "license": "MIT",
   "bugs": {
