@@ -2,7 +2,7 @@
 
 Generate multiple work emails from only one email. It works because most mailers ignore dots written in the emails. Playing on this glitch, system users can randomly insert dots inside the email, keeping it valid email, to create multiple email variations from a single one. I created this repo to prevent this from happening on your system. Use the class, GitHub page, or the simple function to get all of the possible variations and add the instructions to your system.
 
-For one-time uses, visit this page: [Email Generator](https://eymeen.github.io/email-generator/)
+For one-time uses, visit this page: [Email Maker](https://eymeen.github.io/email-maker/)
 
 ## Installation
 
@@ -13,7 +13,7 @@ npm install email-maker
 
 or place this script tag inside the <head> into your html file
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/npm/email-maker/EmailMaker.min.js" defer>
+<script type="module" src="https://cdn.jsdelivr.net/npm/email-maker@latest/EmailMaker.min.js" defer>
 ```
 
 ## Usage
