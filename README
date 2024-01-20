@@ -6,3 +6,105 @@ tested on:
 - gmail.com
 
 AGAIN do not use this repo to randomly create accounts on systems.
+
+doc:
+===============================================================================
+Email Generator Class 👨‍💻
+===============================================================================
+
+Constructor         | `constructor(input = null)`
+                    | Creates an instance of the `EmailGenerator` class.
+                    |
+                    | - **Parameters:**
+                    |   - `input` (optional): The email address or username to
+                    |     generate variations from.
+
+===============================================================================
+
+Methods
+
+--------------------------------------------------------------------
+Method              | `generateUsernameVariations(current, remaining)`
+                    | Generates different username variations based on the
+                    | provided `current` and `remaining` characters.
+
+--------------------------------------------------------------------
+Method              | `getOutput(type = "arr")`
+                    | Gets the generated variations in different formats.
+                    |
+                    | - **Parameters:**
+                    |   - `type` (optional): Output format. Default is an array
+                    |     (`"arr"`). Other options include `"object"` or a custom
+                    |     separator.
+
+--------------------------------------------------------------------
+Method              | `logOutput(type = "arr")`
+                    | Logs the generated variations to the console.
+                    |
+                    | - **Parameters:**
+                    |   - `type` (optional): Log format. Default is an array
+                    |     (`"arr"`). Other options include `"object"` or a custom
+                    |     separator.
+
+--------------------------------------------------------------------
+Method              | `displayTable()`
+                    | Displays the generated variations in a table format in the
+                    | console.
+
+--------------------------------------------------------------------
+Method              | `downloadVariations(side = "backend")`
+                    | Downloads the generated variations. Supports both backend
+                    | (Node.js) and frontend (browser) environments.
+                    |
+                    | - **Parameters:**
+                    |   - `side`: Download side. Default is `"backend"`. Use
+                    |     `"frontend"` for browser-side downloads.
+
+--------------------------------------------------------------------
+Method              | `downloadToFileSystem()`
+                    | Downloads the variations to the local file system (Node.js
+                    | environment).
+
+--------------------------------------------------------------------
+Method              | `downloadFile()`
+                    | Downloads the variations as a text file in the browser.
+
+--------------------------------------------------------------------
+Method              | `validateInput()`
+                    | Validates the input for a valid email address or username.
+
+--------------------------------------------------------------------
+Arithmetic Methods  | These methods provide functionality for arithmetic
+                    | calculations related to variations.
+                    |
+                    | - `countUsernameVariations()`: Counts the variations based
+                    |   on the username length.
+                    |
+                    | - `calculateEmailChars(variationCount)`: Calculates the
+                    |   number of characters needed to represent the given number
+                    |   of variations.
+                    |
+                    | - `calculateVariations(emailChars)`: Calculates the number
+                    |   of variations based on the number of characters.
+
+--------------------------------------------------------------------
+
+Example Usage       |
+                    | ```javascript
+                    | const emailGenerator = new EmailGenerator("example@email.com");
+                    |
+                    | emailGenerator.generateUsernameVariations('', emailGenerator.username);
+                    | emailGenerator.logOutput();
+                    | emailGenerator.displayTable();
+                    | emailGenerator.downloadVariations();
+                    | ```
+                    |
+                    | This example creates an instance of the `EmailGenerator`
+                    | class, generates variations, logs them, displays them in a
+                    | table, and downloads them using the default backend download
+                    | option.
+                    |
+                    | Enjoy exploring the world of email variations! 🚀
+                    |
+===============================================================================
+
