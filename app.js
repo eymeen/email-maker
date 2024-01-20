@@ -1,4 +1,4 @@
-import EmailMaker from "email-maker";
+// import EmailMaker from "email-maker";
 
 const button = document.querySelector("#generate")
 const input = document.querySelector("#email")
