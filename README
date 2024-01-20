@@ -56,6 +56,14 @@ Arithmetic Methods
 
 Usage Example
 
+```
+> npm install email-maker
+```
+or cdn
+```
+<script type="module" src="...">
+```
+
 ```javascript
 import EmailMaker from "../GenerateEmail";
 
