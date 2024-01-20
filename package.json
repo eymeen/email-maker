@@ -1,6 +1,6 @@
 {
   "name": "email-maker",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generate emails from 1 email",
   "main": "index.js",
   "type": "module",
