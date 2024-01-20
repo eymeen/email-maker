@@ -8,24 +8,13 @@
     <title>Email Generator</title>
 </head>
 <body>
-    <input type="text" placeholder="Write email or username" id="email"> <button id="generate"> Generate! </button>
-    <script src="../generatorFunc.js"></script>
-    <script>
-        const generate = document.getElementById("generate")
-        const email = document.getElementById("email")
-        let v = email.value;
-
-        generate.addEventListener("click", _=>{
-            let checked = check(v);
-            if(!checked){
-                alert([
-                    '',"this is not a valid email address, please write a correct one with or without the @ and what's after.",
-                    "this is not a valid username for and email address, please write a correct one."][checked]
-                )
-                return;
-            }
-            generateEmail(v)
-        })
-    </script>
+    <section class="grid place-items-center bg-emerald-900 p-16 min-h-screen">
+        <div class="flex gap-4">
+          <input id="email" class="h-12 min-w-[24rem] rounded-lg border-emerald-500 indent-4 text-emerald-900 shadow-lg focus:outline-none focus:ring focus:ring-emerald-600" type="text" placeholder="Write email or username" />
+          <button id="generate" class="h-12 min-w-[8rem] rounded-lg border-2 border-emerald-600 bg-emerald-500 text-emerald-50 shadow-lg hover:bg-emerald-600 focus:outline-none focus:ring focus:ring-emerald-600">Generate</button>
+        </div>
+    </section>
+    <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/email-maker/dist/email.min.js'></script>
+    <script src="./app.js" type="module"></script>
 </body>
 </html>
