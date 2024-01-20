@@ -12,29 +12,29 @@ docs:
 Email Generator Class 👨‍💻
 ===============================================================================
 
-**Constructor**
+Constructor
 - `constructor(input = null)`: Creates an instance of the `EmailGenerator` class.
-  - **Parameters:**
+  - Parameters:
     - `input` (optional): The email address or username to generate variations from.
 
 ===============================================================================
 
-**Methods**
+Methods
 
 - `generateUsernameVariations(current, remaining)`: Generates different username variations based on the provided `current` and `remaining` characters.
 
 - `getEmailVariations(type = "arr")`: Gets the generated variations in different formats.
-  - **Parameters:**
+  - Parameters:
     - `type` (optional): Output format. Default is an array (`"arr"`). Other options include `"object"` or a custom separator.
 
 - `logVariations(type = "arr")`: Logs the generated variations to the console.
-  - **Parameters:**
+  - Parameters:
     - `type` (optional): Log format. Default is an array (`"arr"`). Other options include `"object"` or a custom separator.
 
 - `tableVariations()`: Displays the generated variations in a table format in the console.
 
 - `download(side = "backend")`: Downloads the generated variations. Supports both backend (Node.js) and frontend (browser) environments.
-  - **Parameters:**
+  - Parameters:
     - `side`: Download side. Default is `"backend"`. Use `"frontend"` for browser-side downloads.
 
 - `fsDownload()`: Downloads the variations to the local file system (Node.js environment).
@@ -43,7 +43,7 @@ Email Generator Class 👨‍💻
 
 - `validateInput(input)`: Validates the input for a valid email address or username.
 
-**Arithmetic Methods**
+Arithmetic Methods
 - `countUsernameVariations()`: Counts the variations based on the username length.
 
 - `getEmailCharsCount(variationCount)`: Calculates the number of characters needed to represent the given number of variations.
@@ -52,7 +52,7 @@ Email Generator Class 👨‍💻
 
 ===============================================================================
 
-**Usage Example**
+Usage Example
 
 ```javascript
 import EmailGenerator from "../GenerateEmail";
