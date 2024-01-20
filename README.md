@@ -2,7 +2,7 @@
 
 Generate multiple work emails from only one email. It works because most mailers ignore dots written in the emails. Playing on this glitch, system users can randomly insert dots inside the email, keeping it valid email, to create multiple email variations from a single one. I created this repo to prevent this from happening on your system. Use the class, GitHub page, or the simple function to get all of the possible variations and add the instructions to your system.
 
-For one-time uses, visit this page: [Email Generator](https://example.com/email-generator)
+For one-time uses, visit this page: [Email Generator](https://eymeen.github.io/email-generator/)
 
 ## Installation
 
