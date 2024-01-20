@@ -1,6 +1,6 @@
 // import fs from 'fs';
 
-class EmailMaker {
+export default class EmailMaker {
     constructor(input = null) {
         this.validateInput(input);
         this.domain = input.includes("@") ? input.split("@")[1] : "gmail.com";
@@ -97,5 +97,3 @@ class EmailMaker {
         return 2 ** (emailChars - 1);
     }
 }
-
-module.exports = EmailMaker;
