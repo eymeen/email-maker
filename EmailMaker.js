@@ -1,4 +1,4 @@
-import fs from 'fs';
+// import fs from 'fs';
 
 class EmailMaker {
     constructor(input = null) {
@@ -42,21 +42,24 @@ class EmailMaker {
     }
 
     download(side = "backend") {
-        if (side === "frontend") return this.blobDownload;
-        this.fsDownload();
+        // if (side === "frontend")
+        return this.blobDownload;
+        // this.fsDownload();
     }
 
-    fsDownload() {
-        const filename = `${this.username}_variations.txt`;
-        const content = this.variations.join("\n");
-        fs.writeFile(filename, content, (err) => {
-            if (err) {
-                console.error(`Error writing file: ${err}`);
-            } else {
-                console.log(`File ${filename} has been saved.`);
-            }
-        });
-    }
+
+    // causes problem on front-end
+    // fsDownload() {
+    //     const filename = `${this.username}_variations.txt`;
+    //     const content = this.variations.join("\n");
+    //     fs.writeFile(filename, content, (err) => {
+    //         if (err) {
+    //             console.error(`Error writing file: ${err}`);
+    //         } else {
+    //             console.log(`File ${filename} has been saved.`);
+    //         }
+    //     });
+    // }
 
     blobDownload() {
         const filename = `${this.username}_variations.txt`;
