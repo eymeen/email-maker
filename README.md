@@ -7,9 +7,13 @@ For one-time uses, visit this page: [Email Generator](https://eymeen.github.io/e
 ## Installation
 
 You can install the `email-maker` package using npm:
-
 ```bash
 npm install email-maker
+```
+
+or place this script tag inside the <head> into your html file
+```html
+<script type="module" src="https://cdn.jsdelivr.net/npm/email-maker/EmailMaker.min.js" defer>
 ```
 
 ## Usage
@@ -34,9 +38,6 @@ emailInstance.logVariations('arr');
 
 // Log email variations to the console as a table
 emailInstance.tableVariations();
-
-// Download variations as a text file (backend-side)
-emailInstance.download('backend');
 
 // Download variations as a text file (frontend-side)
 emailInstance.download('frontend');
@@ -64,7 +65,7 @@ Logs email variations to the console as a table.
 
 Downloads email variations as a text file.
 
-- `side`: The side for downloading, either 'backend' or 'frontend'.
+- `side`: The side for downloading, either 'backend' or 'frontend'. But currently only front-end available, importing fs in the module causing problem when using it in front-end.
 
 ## Example
 
@@ -76,8 +77,8 @@ const emailInstance = new EmailMaker('example@gmail.com');
 // Log variations as a table
 emailInstance.tableVariations();
 
-// Download variations as a text file (backend-side)
-emailInstance.download('backend');
+// Download variations as a text file (frontend-side)
+emailInstance.download('frontend');
 ```
 
 ## Compatibility

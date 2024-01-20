@@ -59,9 +59,9 @@ Usage Example
 ```
 > npm install email-maker
 ```
-or cdn
+or place this script tag inside the <head> into your html file
 ```
-<script type="module" src="https://cdn.jsdelivr.net/npm/email-maker/EmailMaker.min.js">
+<script type="module" src="https://cdn.jsdelivr.net/npm/email-maker/EmailMaker.min.js" defer>
 ```
 
 ```javascript
